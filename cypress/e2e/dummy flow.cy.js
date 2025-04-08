@@ -1,3 +1,4 @@
+//git log check
 Cypress.Commands.add('login', (email, password) => {
   cy.session('patient-login', () => {
     cy.visit('https://dev.nimbushealthcare.com/signin');
